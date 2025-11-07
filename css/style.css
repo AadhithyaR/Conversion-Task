@@ -161,7 +161,7 @@ body {
 
 .curly-decoration {
   position: absolute;
-  bottom: 109px;
+  bottom: 129px;
   left: 173px;
   width: 54px;
   z-index: 1;
@@ -269,13 +269,35 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .pricing-text {
   color: #616161;
   font-size: 16px;
   max-width: 514px;
   font-weight: 500;
   line-height: 1.7;
-  margin-bottom: 30px;
+  margin-bottom: 51px;
+}
+
+.discover-btn {
+  transition: all 0.4s ease;
+}
+
+.discover-btn span {
+  transition: all 0.4s ease;
+}
+
+.discover-btn .play-icon {
+  transition: all 0.4s ease;
+}
+
+.discover-btn:hover span {
+  color: #7a147b;
+}
+
+.discover-btn:hover .play-icon {
+  background-color: #7a147b;
+  border-color: #7a147b;
 }
 
 .certificate-icon {
