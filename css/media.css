@@ -523,7 +523,7 @@
   .right-dots {
     bottom: -20px;
     right: -5%;
-    width: 280px;
+    /* width: 280px; */
   }
 }
 
@@ -555,7 +555,7 @@
   }
 
   .right-dots {
-    width: 200px;
+    /* width: 200px; */
     bottom: -10px;
   }
 }
